@@ -1,0 +1,146 @@
+<!--DESARROLLANDO UNA PÁGINA CON ESTILOS-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Portafolio de trabajo Maricruz</title>
+    <script src="js/codigo.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body bgcolor="#EAF2EA">
+    
+    <div class="nombre_clase">
+        <h1>PORTAFOLIO DE TRABAJO MARICRUZ</h1>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="#presentacion">Presentación</a></li>
+            <li><a href="#cualidades">Cualidades</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#aficiones">Aficiones</a></li>
+            <li><a href="#videos">Videos </a></li>
+            <li><a href="#proyectos">Participación en proyectos</a></li>
+        </ul>
+    </nav>
+    <!--Salto dde línea -->
+    <HR>
+    <h2 id="presentacion" class="huno">Hola soy Maricruz Pineda Lara y estudio Ingeniería en Tecnologías de la Información y Comunicaciones
+    del Instituto Tecnológico Nacional Campus Pachuca. Me gustaría enfocarme en el diseño de aplicaciones y páginas web.</h2>
+    <!--Lisas con viñetas (desordenadas)-->
+    <p id="cualidades"><b>
+            <h4 class="font_sizexl">Cualidades</h4>
+        </b></p>
+    <UL>
+        <LI class="font_sizem"> Responsabilidad
+        <LI class="font_sizem"> Creatividad
+        <LI class="font_sizem"> Empatía
+        <LI class="font_sizem"> Puntualidad
+
+    </UL>
+    <!-- Listas enumeradas-->
+    <p id="habilidades"><b>
+            <h4 class="font_sizexl">Habilidades</h4>
+        </b></p>
+    <OL>
+
+        <LI class="font_sizem"> Diseño de páginas web
+        <LI class="font_sizem"> Programación
+        <LI class="font_sizem"> Diseño de aplicaciones
+        <LI class="font_sizem"> Creación de contenido
+    </OL>
+    <!-- Lista ordenada de aficiones -->
+    <p id="aficiones"><b>
+            <h4 class="font_sizexl">Aficiones</h4>
+        </b></p>
+    <OL>
+
+        <LI class="font_sizem"> Deportes
+            <UL>
+                <LI class="font_sizech"> Ciclismo</LI>
+                <LI class="font_sizech"> Natación</LI>
+            </UL>
+        </LI>
+        <LI class="font_sizem"> Lectura
+            <UL>
+                <LI class="font_sizech"> Novelas</LI>
+                <LI class="font_sizech"> Ciencia ficción</LI>
+                <LI class="font_sizech"> Historia</LI>
+            </UL>
+        </LI>
+    </OL>
+    <HR>
+    <section id="videos">
+        <center>
+            <h3 class="font_sizexl">Videos divertidos</h3>
+        </center>
+        <figure>
+            <video controls style="width: 15%; height: auto; display: block; margin: 0 auto;">
+                <source src="image/video1.mp4" type="video/mp4" />
+            </video>
+        </figure>
+    </section>
+    <HR>
+    <h2 id="proyectos">
+        <center>
+            <bold>
+                <h3 class="font_sizexl">PARTICIPACIÓN EN PROYECTOS</h3>
+            </bold>
+        </center>
+    </h2>
+    <table style="width: 100%; border-collapse: collapse; text-align: center;">
+        <tr>
+            <td>
+                <img src="image/proyecto1.jpg" alt="Hackatec" style="width: 200px; height: auto;"onclick="mostrarMensaje('Hackatec es especial porque fomenta la innovación y el trabajo en equipo.Es un concurso de 36 hrs para desarrollar y crear solución a un problema')">
+                <p>Hackatec</p>
+            </td>
+            <td>
+                <img src="image/proyecto2.jpg" alt="Hackaton" style="width: 200px; height: auto;" onclick="mostrarMensaje('Hackaton pone a prueba la creatividad y la resolución de problemas en tecnología con otras escuelas. Es un concurso de 4 hrs para resolver un problema dado')">
+                <p>Hackaton</p>
+            </td>
+            <td>
+                <img src="image/proyecto3.jpg" alt="Taller pintura y dibujo" style="width: 200px; height: auto;" onclick="mostrarMensaje('Este taller extraescolar ayuda a mejorar habilidades artísticas, y crear pinturas o dibujos de diversas técnicas.')">
+                <p>Taller pintura y dibujo</p>
+            </td>
+            <td>
+                <img src="image/proyecto4.jpg" alt="INNOVATEC" style="width: 200px; height: auto;" onclick="mostrarMensaje('INNOVATEC es un evento que fomenta la innovación y el trabajo en equipo. Propiendo soluciones reales a problemas en nuetsro contexto, creando servicios, productos, entre otors.')">
+                <p>INNOVATEC</p>
+            </td>
+            <td>
+                <img src="image/proyecto5.jpg" alt="Coding cup" style="width: 200px; height: auto;" onclick="mostrarMensaje('Coding cup es un concurso nacional que fomenta el gtrabajo en equpo y las habilidades de programación para resolver problemas en un tiempo determinado.')">>
+                <p>Coding cup</p>
+            </td>
+        </tr>
+    </table>
+    <!-- Botón para redirigir al formulario -->
+    <div style="text-align: center; margin-top: 20px;">
+        <button onclick="window.location.href='formulario.html'"
+            style="background-color: #2D5652; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+            Solicitud
+        </button>
+    </div>
+    <HR>
+</body>
+
+<!--Crear enlaces a redes sociales-->
+<div class="redes">
+    <a href="https://www.facebook.com/share/1Y71K9Bsbt/?mibextid=wwXIfr">
+        <font color="#2D5652">Facebook</font>
+    </a> |
+    <a href="https://www.instagram.com/maaaaripin_?igsh=MXdnMWxmeWc4dGw0YQ%3D%3D&utm_source=qr">
+        <font color="#2D5652">Instagram</font>
+    </a> |
+    <a href=www.linkedin.com/in/maricruz-pineda-lara-643839273>
+        <font color="#2D5652">LinkedIn</font>
+    </a> |
+    <a href="mailto:l22200789@pachuca.tecnm.mx">
+        <font color="#2D5652">Email</font>
+    </a>
+</div>
+<HR>
+<footer class="footer">Tecnm campus Pachuca - Programación Web - T2 - Maricruz Pineda Lara - 2025
+</footer>
+
+</html>

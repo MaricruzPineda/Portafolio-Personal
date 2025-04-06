@@ -1,0 +1,81 @@
+.nombre_clase {
+    text-align: center;
+    color: #2D5652;
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+}
+
+.nombre_clase .titulo_1 {
+    background-color: rgb(51, 39, 119);
+}
+
+.font_sizexl {
+    font-size: 2em;
+    color: #2D5652;
+}
+.font_sizem {
+    font-size: 1.5em;
+}
+.font_sizech {
+    font-size: 1em;
+}
+/* 
+.titulo_bienvenida:hover {
+    
+} */
+
+/* .titulo_bienvenida::first-letter {
+    color: #413891;
+} */
+.huno {
+    font-size: 1.7em;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #2D5652;
+}
+
+p {
+    font-size: 1em;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.menu {
+    text-align: center;
+    background-color: #97D3CD;
+    padding: 15px 0;
+    font-size: 1.3em;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #2D5652;
+}
+
+.redes {
+    text-align: center;
+    font-size: 1.5em;
+}
+.footer {
+    text-align: right;    
+    font-size: 1.3em;
+}
